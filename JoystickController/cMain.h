@@ -28,4 +28,10 @@ public:
 
 	wxDECLARE_EVENT_TABLE();
 
+public:
+	bool isJoyOk;
+
+	wxStaticText* staticText1 = nullptr;
+	wxStaticText* staticText2 = nullptr;
+	
 };

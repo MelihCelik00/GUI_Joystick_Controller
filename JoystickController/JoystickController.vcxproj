@@ -21,10 +21,12 @@
   <ItemGroup>
     <ClInclude Include="cApp.h" />
     <ClInclude Include="cMain.h" />
+    <ClInclude Include="JoyThreadd.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cApp.cpp" />
     <ClCompile Include="cMain.cpp" />
+    <ClCompile Include="JoyThreadd.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

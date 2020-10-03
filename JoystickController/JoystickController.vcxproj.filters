@@ -21,12 +21,18 @@
     <ClInclude Include="cMain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="JoyThreadd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JoyThreadd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

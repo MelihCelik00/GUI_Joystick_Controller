@@ -12,7 +12,13 @@ cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Joystick Controller", wxPoint(30,30
 	list1 = new wxListBox(this, wxID_ANY, wxPoint(10,140), wxSize(300,100));
 	// Text section ends
 
-	checkJoyButton1 = new wxButton(this, 10002, "Check Joystick", wxPoint(220,10), wxSize(90, 50));
+	checkJoyButton1 = new wxButton(this, 10002, "Check Joystick", wxPoint(220,10), wxSize(90, 50)); // Joystick check event
+	
+	//////////FIX BELOW//////////
+
+	/*isJoyOk = {true: "Good", false: "Fail"}[stick.IsOk() == true];
+	staticText1 = new wxStaticText(this, wxID_ANY, "Joystick Status: ", wxPoint(350,10), wxSize(80,40));
+	staticText2 = new wxStaticText(this, 10003, isJoyOk);*/  
 }
 
 cMain::~cMain() {
