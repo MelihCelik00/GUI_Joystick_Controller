@@ -1,9 +1,9 @@
 #pragma once
 
-class JoyThreadd
+class CamThread
 {
 public:
-	JoyThreadd(wxFrame* pFrame, wxPanel* pPanel);
+	CamThread(wxFrame* pFrame, wxPanel* pPanel);
 
 	virtual void* Entry();
 
@@ -13,6 +13,9 @@ private:
 
 	cv::VideoCapture* cap;
 	cv::Mat frame;
+	cv::VideoWriter* video_writer;
+
+	bool record; // Helal be
 
 };
 
